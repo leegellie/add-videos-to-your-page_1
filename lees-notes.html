@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Lee's Notes</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Lee's Notes  (Stage 3 - Work Session 1)</h1>
+	<h3>Stage 3</h3>
+	<ul class="menu">
+       	<li class="menu-button"><a href="#anchor1">Using Other People's Code</a></li>
+        <li class="menu-button"><a href="#anchor2">Abstraction</a></li>
+        <li class="menu-button"><a href="#anchor3">Object Oriented Programming</a></li>
+       	<li class="menu-button"><a href="#anchor4">Objects, Classes &amp; Instances</a></li>
+        <li class="menu-button"><a href="#anchor5">Methods &amp; Instance Variables</a></li>
+       	<li class="menu-button"><a href="#anchor6">Constructors</a></li>
+        <li class="menu-button"><a href="#anchor7">Constant Variables</a></li>
+        <li class="menu-button"><a href="#anchor8">Class Variables</a></li>
+       	<li class="menu-button"><a href="#anchor9">Pre-Existing Class Variables</a></li>
+        <li class="menu-button"><a href="#anchor10">Inheritance</a></li>
+        <li class="menu-button"><a href="#anchor11">Methods &amp; Method Overriding</a></li>
+	</ul>
+	<h3>Stage 3 &mdash; Summary</h3>
+	<ul class="menu">
+		<li class="menu-button"><a href="#anchor13">Summary for Stage 3</a></li>
+	</ul>
+	<div id="notes">
+		<div id="anchor1" class="sub-head">
+		  <h2>Notes for Stage 4</h2></div>
+		<article id="note0" class="note">
+			<h2>Networks</h2>
+			<p>A network is a group of entities that can communicate, even though they are not directly conected. </p>
+			<p>By definition a network has more than 2 people and the data flow may have to go vias. </p>
+			<p>If the data map looks like a &quot;net&quot; in any way it could be a network.</p>
+			<p>To make a network you need:</p>
+			<ol>
+			  <li>A way to encode and interpret the messages.</li>
+			  <li>A way to route the messages.</li>
+			  <li>Rules for deciding who gets to use the messages with what priorities. </li>
+		  </ol>
+          <p>aaaa</p>
+	  </article>
+        <div id="anchor2" class="sub-head"></div>
+        <article id="note1" class="note">
+        	<h2>Measuring Networks</h2>
+            <p>The two main ways of mesuring a network are;</p>
+            <p class="quote">Latency: </p>
+            <blockquote class="quote_red">
+              The time it takes for a message  to get from source to destination. This is measured in milliseconds, 1000 milliseconds = 1 second.
+            </blockquote>
+            <p class="quote">Bandwidth:</p>
+            <blockquote class="quote_red">
+             The amount of information that can be transmitted through the network during a set amount of time. 
+			This is measured in Million Bits Per Second, Mbps.</blockquote>
+            <p class="quote">Bits:</p>
+			<blockquote class="quote_red">
+            A bit is the smallest part of data you can use on a computer. The is Boolean and there is yes or no. These are actually a 0 and 1.
+            </blockquote>
+            <p>&nbsp;</p>
+</article>
+        <div id="anchor3" class="sub-head"></div>
+        <article id="note2" class="note">
+			<h2>Bits </h2>
+			<p>A bit is the smallest part of data you can use on a computer. The is Boolean and there is yes or no. 0 and 1.</p>
+			<p>This then makes it possible to have many object that can be called or defined to manipulate what you want, when you want to... And not have to write or re-write the code for each step of every procedure. </p>
+			<p>Another big advantage of OOP is that it can call and use other objects (and data) much easier. This data can be manipulated or changed and when called the functionality can change.</p>
+		</article>
+        <div id="anchor4" class="sub-head"></div>
+        <article id="note3" class="note">
+			<h2>Objects, Classes &amp; Instances</h2>
+			<p><span class="quote">Objects</span> are bits of data that have a location in the memory of the program we are running or working with it. </p>
+			<p><span class="quote">Objects</span> can be variables, structured data or functions. <span class="quote">Objects</span> can be made and several others are pre-defined. The can be referenced, called upon and changed in your code.</p>
+			<p>In the case of &quot;<span class="quote">Classes</span>&quot; the object is the specific instance of that class. </p>
+			<p><span class="quote">Classes</span> are a new thing we learned about that have some exciting and very, very useful properties. </p>
+			<p>When we started we were just using functions. This was great and with changing variable you could make the functions do slightly different things... this was limiting and for more extensive programming would require a LOT of code writing. </p>
+			<p><span class="quote">Classes</span> are essentially &quot;preset&quot; functions. This means that there can be a whole set of functions assigned to help with a certain programming procedure. </p>
+			<p><span class="quote">Classes</span> also have a great feature of beign called and assigned a new <span class="quote">INSTANCE</span>. In this case each <span class="quote">instance</span> is given its own version of that class and can be used as <span class="quote">THAT instance</span> forever on. Unlike giving a function an alias. That <span class="quote">class</span> will no longer change if a another <span class="quote">instance</span> is made for it.  Only specific instruction to that <span class="quote">instance</span> will effect that <span class="quote">instance</span>. </p>
+			<p>You could have as many <span class="quote">instances</span> of that <span class="quote">class</span> as you want and all will operate independantly. </p>
+			<p>To create a new <span class="quote">instance</span> you only need to define a variable calling the <span class="quote">instance</span>. That variable will then be that <span class="quote">instance</span> of the <span class="quote">class</span>.</p>
+        </article>
+        <div id="anchor5" class="sub-head"></div>
+        <article id="note4" class="note">
+			<h2>Methods &amp; Instance Variables</h2>
+			<p><span class="quote">Methods</span> are functions in the <span class="quote">class</span> that can be called when using that <span class="quote">class</span>. They are written by defining them under the <span class="quote">class</span>. </p>
+			<p><span class="quote">Methods</span> are called by <span class="quote">Class.method()</span>.</p>
+			<p><span class="quote">Instance Variable</span> are the different variables that can be used by a <span class="quote">class</span>. This makes it so that you can call various variables again and again but can be different with each <span class="quote">instance.</span> They, like just about everything inside a <span class="quote">class</span> code, are started with <span class="quote_red">self</span> which tells the <span class="quote">class</span> the variable is to be used with the specific <span class="quote">instance</span> of that <span class="quote">class</span>. </p>
+			<p>So if you had a <span class="quote_red">.Building</span> <span class="quote">class</span> you could have <span class="quote_red">Building height</span>, <span class="quote_red">Building depth</span>, <span class="quote_red">building width</span>, <span class="quote_red">floor size</span>, <span class="quote_red">floor numbers</span>, etc. as <span class="quote">instance variables</span> and every time you called a new instance of that <span class="quote">class</span> you could pass it the variable for that instance and could make a different &quot;<span class="quote_red">Building</span>&quot; for each.</p>
+		</article>
+        <div id="anchor6" class="sub-head"></div>
+        <article id="note5" class="note">
+			<h2>Constructors</h2>
+			<p>Although this is not really gone over in the course, the <span class="quote">Constructor</span> is used in a class to create an <span class="quote">object</span>.  It readies that new <span class="quote">object</span>, with passed input if needed, for use. </p>
+			<p>It has to open a space in the memory to run the <span class="quote">Class</span>. It is started with <span class="quote_red">__init__</span> to initialize the space in the memory.</p>
+			<p>In our case this was also defining the main 'function' of our <span class="quote">class</span>. </p>
+		</article>
+        <div id="anchor7" class="sub-head"></div>
+        <article id="note6" class="note">
+			<h2>Constant Variables</h2>
+			<p><span class="quote">Constant variable</span> are variables that have been set and are unlikely to be changed. The Google Python Style Guide suggests making that variable in ALL CAPS. This help you know off hand which things will be the same every time you use them.</p>
+		</article>
+        <div id="anchor8" class="sub-head"></div>
+		<article id="note7" class="note">
+			<h2>Class Variables</h2>
+		    <p>When you set a variable in the base of your <span class="quote">class</span> it becomes valid and callable for all instances of that <span class="quote">class</span>. </p>
+		    <p>It becomes a property of that <span class="quote">class</span> that can be set and pulled as needed. For example; If you set the <span class="quote">class variable</span> of <span class="quote">Line</span> to be 3cm long you could use it every time you call that <span class="quote">class</span>. You can also set it specifically for the <span class="quote">instance</span> you are using. </p>
+        </article>
+        <div id="anchor9" class="sub-head"></div>
+        <article id="note8" class="note">
+			<h2>Pre-Existing Class Variables</h2>
+			<p>All Python <span class="quote">classes</span> come with some <span class="quote">pre-existing variables</span>.  These are useful in working with and debugging classes. </p>
+		</article>
+        <div id="anchor10" class="sub-head"></div>
+        <article id="note9" class="note">
+			<h2>Inheritance</h2>
+			<p><span class="quote">Inheritance</span> is where attributes, functions, etc., can be taken from other <span class="quote">classes</span> to be used in another <span class="quote">class</span> and/or into your final code. </p>
+		</article>
+        <div id="anchor11" class="sub-head"></div>
+		<article id="note10" class="note">
+			<h2>Methods &amp; Method Overriding</h2>
+	    	<p>A <span class="quote">method</span> is a function in a <span class="quote">class</span>. Sometimes you will have a <span class="quote">class</span> with a <span class="quote">method</span>, or function, defined in an <span class="quote">inherited class</span>. You may want it to show something else. In that case you just need to define the same <span class="quote">method</span> in the newer <span class="quote">class</span>. </p>
+		</article>
+		<article id="note10" class="note">
+		  <h2>Difference Between OOP and other programming</h2>
+            <p>Object oriented programming utalizes functions, <span class="quote">objects</span>, that are set or can be defined and then pulled whenever you need them in your program. This, as mentioned earlier, avoids repetition and can make your programming change based on what is defined in different <span class="quote">variables</span> in your code.</p>
+            <p>Unlike a procedural programming language, like HTML, you can have the code dynamically modify based on other factors. HTML would have to, in sequence, define each part of the output and it is then set there. With OOP, like Python, you can only create the code that is needed, modify that code based on different <span class="quote">variables</span> and many other nifty things.</p>
+            <p>One of the most important parts of OOP is the &quot;<span class="quote">Classes</span>&quot; it utalizes. These, like blueprints, have the basic structure of a procedure (wich we usually call a &quot;<span class="quote">method</span>&quot; in OOP. But unlike a procedure written in procedural programming you can use the same class over and over and just call that class with new variables, or the same, to make it do what you want. </p>
+            <p>If you used HTML and CSS to create a document, you have no way to change what the code is without some kind of programming that will rewrite the code. With OOP you can do that very easily. </p>
+            <p>For example. You can call a class like MakeHTMLp which will for each instance have a creator that will write a line starting with &quot;<span class="quote_red">&lt;p&gt;</span>&quot; and ending in &quot;<span class="quote_red">&lt;/p&gt;</span>&quot; and it will fill with a variable and can have a variable set to assign it a CSS class, etc. You do not need to re-write the function every time you want to make the program spit out HTML code. Just call the class with the applicable variables.</p>
+            <p>So with this you could have your program read several different files and write all the different blocks with one class. </p>
+		</article>
+		<div class="summation">
+			<div class="sub-head"><h1 id="anchor13">Summary for Stage 3 </h1></div>
+			<div class="text-block">
+       			<p><span class="summary">The </span><span class="quote">IF</span><span class="summary"> and </span><span class="quote">WHILE</span><span class="summary"> functions can be extremely useful and make life a lot easier for a programmer as you can automate when and for how long (or how many times) code steps get carried out.  Without them you would have to write code for every possible occurrence and it could be very lengthly and extensive to code.</span></p>
+           		<p><span class="summary">From counting to greeting according to time of day, these functions can make it very simple to code aspects that would otherwise take a lot of consideration and figuring.</span></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
